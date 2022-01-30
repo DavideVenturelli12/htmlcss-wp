@@ -22,13 +22,40 @@
 }
 
 .logo{    
-    height: 70px;
+    height: 55px;
     background-color: pink;
 }
 
+.logo img{
+    height: 55px;
+    width: auto;
+    padding-right: 15px;
+    border-right: 1px solid lightslategray;
+    
+}
+
+nav{
+    height: 45px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 14px;
+    font-family: 'Spartan', sans-serif;
+    margin-left: 5px;
+}
+
 .jumbo-tron{      
-    height: 300px;
-    background-color: rgb(224, 224, 138);
+    height: 255px; 
+    background-image: url(img/banner.jpg); 
+}
+
+.jumbo-tron img{
+    height: 255px;
+    width: auto;
 }
 
 .inner-header{       
